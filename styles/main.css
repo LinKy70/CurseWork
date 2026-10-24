@@ -20,6 +20,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    
 }
 
 .wrapper{
@@ -34,6 +35,8 @@ body {
 .container{
     display: flex;
     flex-direction: column;
+    max-height: 880px;
+    height: 100%;
 }
 
 a{
@@ -158,9 +161,8 @@ a{
 }
 
 .content{
-    max-height: 770px;
+    height: 770px;
     max-width: 1570px;
-    height: 100%;
     width: 100%;
     background-color: #D0EBFD;
     border-radius: 20px;

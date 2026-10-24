@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Nunito';
+    src: url('../assets/fonts/Nunito-ExtraBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Nunito';
+    src: url('../assets/fonts/Nunito-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    font-family: 'Nunito', serif;
+}
+
+.wrapper h1{
+    color: #084C6B;
+}
+
+.register__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.register__input{
+    padding: 10px;
+    width: 430px;
+    /*width: 100%;*/
+    height: 60px;
+    background-color: #D0EBFD;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.register__input:focus{
+    outline: none;
+    border: 1px #0B6E99 solid;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.register__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #0B6E99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    max-width: 430px;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    /*height: 100%;*/
+}

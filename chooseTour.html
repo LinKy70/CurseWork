@@ -15,8 +15,8 @@
         <div class="sidebar__buttons">
             <a href="main.html" class="sidebar__button">Главная страница</a>
             <a href="" class="sidebar__button active">Туры</a>
-            <a href="" class="sidebar__button">Отзывы клиентов</a>
-            <a href="" class="sidebar__button">Наши преимущества</a>
+            <a href="reviews.html" class="sidebar__button">Отзывы клиентов</a>
+            <a href="advantages.html" class="sidebar__button">Наши преимущества</a>
         </div>
     </div>
     <div class="container">
@@ -34,27 +34,29 @@
             </div>
         </div>
         <div class="content">
-            <div class="search__form">
-                <select>
-                    <option value="value1">Тур</option>
-                    <option value="value2">Отель</option>
-                </select>
-                <select>
-                    <option value="value1">Москва</option>
-                    <option value="value2">Вьетнам</option>
-                </select>
-                <select>
-                    <option value="value1">Вьетнам</option>
-                    <option value="value2">Москва</option>
-                </select>
-                <label>
-                    <input type="date">
-                </label>
-                <label>
-                    <input type="number">
-                </label>
+            <div class="choose__form">
+                <div class="select__cont">
+                    <select class="select">
+                        <option value="">Тур</option>
+                        <option value="">Отель</option>
+                    </select>
+                </div>
+                <div class="select__cont">
+                    <p>Откуда</p>
+                    <select class="select">
+                        <option value="">Москва</option>
+                        <option value="">Вьетнам</option>
+                    </select>
+                </div>
+                <div class="select__cont">
+                    <p>Куда</p>
+                    <select class="select">
+                        <option value="">Вьетнам</option>
+                        <option value="">Москва</option>
+                    </select>
+                </div>
             </div>
-            <h2>Рекомендуем</h2>
+            <h2>Рекомендуемые отели</h2>
             <div class="choseTour">
                 <article class="hotel__card">
                     <img src="assets/images/CatamaranHotel.png" alt="Фото отеля" class="hotel__image">
